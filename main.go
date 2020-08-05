@@ -31,7 +31,7 @@ func main() {
 	args := flag.Args()
 	if len(args) < 1 {
 		fmt.Println("Please specify start page")
-		fmt.Println("Ok!")
+		//fmt.Println("Ok!")
 		os.Exit(1)
 	}
 	currentUrl := args[0] // đây là biến lấy ra URL muốn crawl data
